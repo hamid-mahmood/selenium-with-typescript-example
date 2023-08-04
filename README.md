@@ -5,7 +5,7 @@
 - `node` version `18.16.0`. Consider using [`nvm`](https://github.com/nvm-sh/nvm) if you need to have multiple `node` versions:
 
 ```
-nvm install 18  # first time only
+nvm install 18.16.0
 nvm use
 ```
 
