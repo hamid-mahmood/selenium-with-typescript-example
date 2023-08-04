@@ -18,6 +18,6 @@ export class LandingPage extends Page {
       until.urlIs("https://admin.neara.com/?region=australia")
     );
     const text = await this.elements.mainHeading();
-    assert.equal("Neara Admin Center-", text);
+    assert.equal("Neara Admin Center", text);
   }
 }

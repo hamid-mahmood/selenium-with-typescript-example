@@ -11,7 +11,7 @@ describe("Testing Near Login functionality", () => {
   it("Should Login", async () => {
     //open the website
     await pages.browser.driver.get("https://admin.neara.com/");
-    pages.login.login();
+    await pages.login.login();
     await pages.landing.landingLogin();
   });
 
